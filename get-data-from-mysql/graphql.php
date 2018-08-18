@@ -1,3 +1,5 @@
+<?php
+
 require_once __DIR__ . '/vendor/autoload.php';
 
 use App\DB;
@@ -40,3 +42,4 @@ try {
 // Вывод результата
 header('Content-Type: application/json; charset=UTF-8');
 echo json_encode($result);
+?>
